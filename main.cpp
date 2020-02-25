@@ -8,8 +8,8 @@ int main()
 {
     cout << "GitHub Test" << endl;
 
-   double y = power(10, 2);
-   cout << y <<endl;
+    double y = power(10, 2);
+    cout << y << endl;
     y = power(5.3, 3);
     cout << y << endl;
 
