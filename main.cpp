@@ -2,35 +2,27 @@
 
 using namespace std;
 
-double power(double base, int exp);
+void power(int base, int exp);
 
 int main()
 {
-    cout << "GitHub Test" << endl;
-
-   double y = power(10, 2);
-   cout << y <<endl;
-    y = power(5.3, 3);
-    cout << y << endl;
-
-    y = power(7.7, 1);
-    cout << y << endl;
-
-    y = power(3.9, 0);
-    cout << y << endl;
-
+    cout<<"GitHub Test"<<endl;
+    
+    power(10, 2);
+    power(5.3, 3);
+    power(7.7, 1);
+    power(3.9, 0);
 
     return 0;
 }
 //--
-
-double power(double base, int exp)
+void power(double base, int exp)
 {
     double result = 1;
-    for (int i = 0; i < exp; i++)
+    for(int i = 0;i < exp;i++)
     {
         result = result * base;
     }
 
-    return result;
+    cout<<result<<endl;
 }
